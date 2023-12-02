@@ -3,9 +3,9 @@ package br.com.seteideias.springkeycloack.service;
 import org.springframework.stereotype.Service;
 
 @Service
-public class CadastroProdutoService {
+public class ProductsService {
 
-    public String doCadastro(){
+    public String insertNew(){
         return "produto cadastrado";
     }
 
